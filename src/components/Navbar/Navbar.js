@@ -11,7 +11,7 @@ const Navbar = ()=> {
                     </a>
                 </li>
                 <li className={classes.navbarLi}>
-                    <a className={classes.navbarLinks}>
+                    <a className={classes.navbarLinks} href="#skills">
                         Skills
                     </a>
                 </li>

@@ -30,7 +30,7 @@ const Home = () =>{
                 <div className="flex flex-col gap-3 w-fit max-w-lg xl:max-w-2xl flex-grow">
                     <h3 className="text-white text-6xl lg:text-7xl max-w-lg xl:text-8xl xl:max-w-2xl"> 
                         Hi, I'm Jesus <br></br>
-                        <span className="d-block text-purple-500 border-purple-500" ref={spanWrite}></span>
+                        <span className="d-block text-purple-600 " ref={spanWrite}></span>
                     </h3>   
                     <p className="text-gray-400 lg:text-base max-w-2xl xl:max-w-xl">
                         In this website you will see my Skills and Projects as a Software developer.
@@ -41,7 +41,7 @@ const Home = () =>{
                         Front end / Backend / Databases / Arduino / AI
                     </p>
                 </div>     
-                <img src={programmer} className="lg:w-2/5 w-72 h-72 lg:h-auto" alt="programmer img from portfolio JesusM15"/>
+                <img src={programmer} className="lg:w-2/5 w-72 h-72 lg:h-auto opacity-60" alt="programmer img from portfolio JesusM15"/>
             </div>
         
 

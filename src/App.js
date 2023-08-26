@@ -1,6 +1,7 @@
 import classes from "./App.module.css";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./sections/Home/Home";
+import Skills from "./sections/Skills/Skills";
 
 const App = ()=>{
 
@@ -9,6 +10,8 @@ const App = ()=>{
             <Navbar />
 
             <Home />
+            
+            <Skills />
         </>
     )
 
