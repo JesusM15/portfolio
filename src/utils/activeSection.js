@@ -1,4 +1,4 @@
 window.addEventListener("load", ()=>{
-    console.log("Hola");
+    //console.log("Hola");
 });
 

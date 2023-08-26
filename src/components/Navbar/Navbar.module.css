@@ -2,6 +2,7 @@
     width: 100%;
     min-height: 40px;
     display: flex;
+    max-height: 60px;
     justify-content: center;
     padding: 1em;
     position: fixed;
@@ -22,6 +23,12 @@
     color: #fff;
     text-decoration: none;
     font-size: 1.1em;
+    transition: color 0.5s, border 0.5s;
+}
+
+.navbarLinks:hover{
+    color: rgb(147 51 234);
+    border-bottom: 2px solid #ce1fe6;
 }
 
 @media screen and (min-width:1024px) {

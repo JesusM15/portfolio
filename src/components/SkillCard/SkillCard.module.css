@@ -1,0 +1,9 @@
+.SkillCard{
+    color: #000;
+    border-radius: 12px;
+}
+
+.SkillIcon{
+    max-height: 8em;
+    width: 8em;
+}

@@ -1,12 +1,38 @@
 .Square{
-    background: #ce1fe6;
+    background:  rgb(147 51 234);
     min-height: 10%;
     width: 5%;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    opacity: 0.7;
+    transform: rotate(60deg);
+}
+
+.s1{
+    bottom: 2em;
+    right: 2em;
+}
+
+.s2{
+    top: 2em;
+    left: 2em;
+}
+
+.s3{
+    top: 30%;
+    right: 5em;
+}
+
+.s4{
+    bottom: 2em;
+    left: 2em;
 }
 
 span{
     color: rgb(147 51 234 / var(--tw-text-opacity));
+}
+
+@media screen and (max-width: 1024px) {
+    .Square{
+        display: none;
+    }
 }
