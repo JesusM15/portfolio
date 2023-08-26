@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    border-bottom: 1px solid #fff;
+}
+
+.navbarUl{
+    padding: 0 1em;
+    display: inline-flex;
+    gap: 1em;
+}
+
+.navbarLi{
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbarLinks{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
