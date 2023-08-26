@@ -1,0 +1,12 @@
+.Square{
+    background: #ce1fe6;
+    min-height: 10%;
+    width: 5%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+span{
+    color: rgb(168 85 247 / var(--tw-text-opacity)) !important;
+}
