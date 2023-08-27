@@ -1,0 +1,13 @@
+.card{
+    min-height: 10em;
+    background: #222121;
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.4s, box-shadow 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 1px 9px 6px #61249b; 
+}

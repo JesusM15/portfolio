@@ -1,16 +1,30 @@
 import classes from './Skils.module.css';
 import data from "./../../utils/SkillCards/data";
 import SkillCard from '../../components/SkillCard/SkillCard';
+import CardWID from '../../components/CardWID/CardWID';
 
 const Skills = () =>{
     return(
         <section id="skills" className='items-start justify-start w-full px-4 flex-col gap-12'>
             
-            <div className={`flex justify-center w-full `}>
-                <h4 className=" text-purple-700 text-3xl text-center">
+            <div className={`flex justify-center w-full flex-col items-center gap-4`}>
+                <h4 className=" text-purple-900 text-4xl text-center">
                     What I do
                 </h4>
-
+                <div className="flex flex-nowrap gap-5">
+                    <CardWID 
+                        title={"Responsive design"}
+                        description={"Design and develop fully responsive websites on all devices."}
+                    />
+                    <CardWID 
+                        title={"Responsive design"}
+                        description={"Design and develop fully responsive websites on all devices."}
+                    />
+                    <CardWID 
+                        title={"Responsive design"}
+                        description={"Design and develop fully responsive websites on all devices."}
+                    />
+                </div>
             </div>
 
             <div className='flex flex-row w-full'>
