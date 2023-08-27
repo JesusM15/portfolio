@@ -7,10 +7,10 @@ const Skills = () =>{
         <section id="skills" className='items-start justify-start w-full px-4 flex-col gap-12'>
             
             <div className={`flex justify-center w-full `}>
-                <h4 className="text-white text-3xl text-center">
+                <h4 className=" text-purple-700 text-3xl text-center">
                     What I do
                 </h4>
-                
+
             </div>
 
             <div className='flex flex-row w-full'>
