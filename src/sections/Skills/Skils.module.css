@@ -1,0 +1,21 @@
+.skillsText{
+    transform: rotate(270deg);
+    border-bottom: 3px solid #61249b;
+}
+
+.customScroll{
+    scrollbar-width: 10px;
+}
+
+.customScroll::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+
+.customScroll::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+    background-color: #61249b;    /* color of the scroll thumb */
+    border-radius: 0;       /* roundness of the scroll thumb */
+}

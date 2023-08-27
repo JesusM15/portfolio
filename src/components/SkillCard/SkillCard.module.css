@@ -1,9 +1,22 @@
 .SkillCard{
     color: #000;
+    cursor: pointer;
+    background: #222121;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 12px;
+    transition: transform 0.4s, box-shadow 0.5s;
+}
+
+.SkillCard:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 1px 9px 6px #61249b; 
 }
 
 .SkillIcon{
-    max-height: 8em;
-    width: 8em;
+    max-height: 6em;
+    min-height: 6em;
+    width: 6em;
 }
