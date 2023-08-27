@@ -1,9 +1,9 @@
 .Square{
-    background:  rgb(147 51 234);
+    background: linear-gradient(30deg, rgb(97, 36, 155), #1d0d0d);
     min-height: 10%;
     width: 5%;
     position: absolute;
-    opacity: 0.7;
+    opacity: 0.6;
     transform: rotate(60deg);
 }
 
@@ -28,11 +28,29 @@
 }
 
 span{
-    color: rgb(147 51 234 / var(--tw-text-opacity));
+    color: rgb(97 34 153);
 }
 
 @media screen and (max-width: 1024px) {
     .Square{
         display: none;
     }
+}
+
+@keyframes loopScale {
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.05);
+    }
+}
+
+
+.imgProgrammer{
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: loopScale;
 }

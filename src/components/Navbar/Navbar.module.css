@@ -5,6 +5,7 @@
     max-height: 60px;
     justify-content: center;
     padding: 1em;
+    z-index: 100;
     position: fixed;
 }
 

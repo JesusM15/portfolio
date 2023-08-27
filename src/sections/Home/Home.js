@@ -41,7 +41,7 @@ const Home = () =>{
                         Front end / Backend / Databases / Arduino / AI
                     </p>
                 </div>     
-                <img src={programmer} className="lg:w-2/5 w-72 h-72 lg:h-auto opacity-60" alt="programmer img from portfolio JesusM15"/>
+                <img src={programmer} className={`${classes.imgProgrammer} lg:w-2/5 w-72 h-72 lg:h-auto opacity-60`} alt="programmer img from portfolio JesusM15"/>
             </div>
         
             <div className={`${classes.Square} ${classes.s1}`}></div>

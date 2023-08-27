@@ -13,7 +13,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', serif;
-    background: #101010;
+    background: linear-gradient(60deg, #000, #1d0d0d, #000, #1d0d0d);
 }
 
 section{
