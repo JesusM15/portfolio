@@ -7,6 +7,9 @@ import apiIcon from "./../../media/apiIcon.png";
 import seoIcon from "./../../media/seoIcon.png";
 
 const Skills = () =>{
+
+    
+
     return(
         <section id="skills" className='items-start justify-around w-full px-4 flex-col'>
             

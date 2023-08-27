@@ -14,10 +14,17 @@
     box-shadow: 1px 1px 11px 1px #61249b; 
 }
 
+.cardWIDparraf{
+    display: none;
+}
+
 @media screen and (min-width: 1024px){
     .card{
-        height: 13em;
+        height: 14em;
         min-height: 11em;
         min-width: 13em;
+    }
+    .cardWIDparraf{
+        display: block;
     }
 }
