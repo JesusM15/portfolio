@@ -2,27 +2,31 @@ import classes from './Skils.module.css';
 import data from "./../../utils/SkillCards/data";
 import SkillCard from '../../components/SkillCard/SkillCard';
 import CardWID from '../../components/CardWID/CardWID';
+import responsiveIcon from "./../../media/responsive.png";
+import apiIcon from "./../../media/apiIcon.png";
+import seoIcon from "./../../media/seoIcon.png";
 
 const Skills = () =>{
     return(
-        <section id="skills" className='items-start justify-start w-full px-4 flex-col gap-12'>
+        <section id="skills" className='items-start justify-around w-full px-4 flex-col'>
             
             <div className={`flex justify-center w-full flex-col items-center gap-4`}>
-                <h4 className=" text-purple-900 text-4xl text-center">
-                    What I do
-                </h4>
-                <div className="flex flex-nowrap gap-5">
+
+                <div className="flex flex-wrap lg:flex-nowrap gap-5">
                     <CardWID 
                         title={"Responsive design"}
                         description={"Design and develop fully responsive websites on all devices."}
+                        image={responsiveIcon}
                     />
                     <CardWID 
-                        title={"Responsive design"}
-                        description={"Design and develop fully responsive websites on all devices."}
+                        title={"ApiREST"}
+                        description={"API consumption, verification, documentation and creation."}
+                        image={apiIcon}
                     />
                     <CardWID 
-                        title={"Responsive design"}
-                        description={"Design and develop fully responsive websites on all devices."}
+                        title={"SEO"}
+                        description={"Use of good practices for greater reach."}
+                        image={seoIcon}
                     />
                 </div>
             </div>
@@ -45,6 +49,7 @@ const Skills = () =>{
                     }
                 </div>
             </div>
+
         </section>
     )
 };

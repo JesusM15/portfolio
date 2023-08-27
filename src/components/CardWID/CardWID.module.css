@@ -1,6 +1,8 @@
 .card{
-    min-height: 10em;
-    background: #222121;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background: linear-gradient(60deg, #131212, transparent, #131212);
     padding: 1em;
     border-radius: 10px;
     cursor: pointer;
@@ -8,6 +10,13 @@
 }
 
 .card:hover{
-    transform: scale(1.05);
-    box-shadow: 3px 1px 9px 6px #61249b; 
+    transform: scale(1.02);
+    box-shadow: 1px 1px 11px 1px #61249b; 
+}
+
+@media screen and (min-width: 1024px){
+    .card{
+        min-height: 10em;
+        min-width: 13em;
+    }
 }

@@ -1,7 +1,7 @@
 .SkillCard{
     color: #000;
     cursor: pointer;
-    background: #222121;
+    background: linear-gradient(60deg, #222121, transparent, #222121);
     padding: 1em;
     display: flex;
     justify-content: center;
