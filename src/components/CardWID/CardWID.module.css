@@ -16,7 +16,8 @@
 
 @media screen and (min-width: 1024px){
     .card{
-        min-height: 10em;
+        height: 13em;
+        min-height: 11em;
         min-width: 13em;
     }
 }
